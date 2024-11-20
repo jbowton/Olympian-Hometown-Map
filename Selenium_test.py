@@ -24,19 +24,27 @@ seen_athletes = set()
 def extract_athletes(page_source):
     wait = WebDriverWait(driver, 10)
     try:
-      print("Waiting for elements...")
       wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "tr")))  # Wait for all table rows to load
-      print("Elements loaded.")
       soup = BeautifulSoup(page_source, "html.parser")
-      for card in soup.find_all("tr", class_="css-0"):
-          name = card.find("p", class_="chakra-text css-mpfnrl").text.strip()
-          if name in seen_athletes:
-              continue  # Skip if the athlete is already added
-          p_tags = card.find_all("p", class_="chakra-text css-1qjehc2")
-          hometown = p_tags[len(p_tags) - 1].text.strip()
-          athletes.append({"Name": name, "Hometown": hometown})
-          seen_athletes.add(name)  # Add to seen set
-          print(name, hometown)
+      print("here1")
+      for index, card in enumerate(soup.find_all("tr", class_="css-0")):
+        if index == 0:
+            continue  # Skip the first card
+        print("here2")
+        #print(card)
+        name = card.find("p", class_="chakra-text css-mpfnrl").text.strip()
+        print("here3")
+        if name in seen_athletes:
+            continue  # Skip if the athlete is already added
+        print("here4")
+        p_tags = card.find_all("p", class_="chakra-text css-1qjehc2")
+        print("here5")
+        print(p_tags)
+        hometown = p_tags[len(p_tags) - 1].text.strip()
+        print("here6")
+        athletes.append({"Name": name, "Hometown": hometown})
+        seen_athletes.add(name)  # Add to seen set
+        print(name, hometown)
     except Exception as e:
         print()
         #print(f"Error: {e}")
@@ -48,10 +56,12 @@ def extract_athletes(page_source):
 while True:
     try:
         # Wait for the "Load more athletes" button to be clickable and click it
-        load_more_button = WebDriverWait(driver, 10).until(
+        load_more_button = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="loadMoreButtonId"]'))
         )
+        driver.execute_script("window.scrollBy(0, document.body.scrollHeight / 4);")
         load_more_button.click()
+        print("reloading")
         time.sleep(3)  # Wait for new data to load
         #extract_athletes(driver.page_source)
         #print(driver.page_source)
