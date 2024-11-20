@@ -26,25 +26,17 @@ def extract_athletes(page_source):
     try:
       wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "tr")))  # Wait for all table rows to load
       soup = BeautifulSoup(page_source, "html.parser")
-      print("here1")
       for index, card in enumerate(soup.find_all("tr", class_="css-0")):
         if index == 0:
             continue  # Skip the first card
-        print("here2")
         #print(card)
         name = card.find("p", class_="chakra-text css-mpfnrl").text.strip()
-        print("here3")
         if name in seen_athletes:
             continue  # Skip if the athlete is already added
-        print("here4")
-        p_tags = card.find_all("p", class_="chakra-text css-1qjehc2")
-        print("here5")
-        print(p_tags)
+        p_tags = card.find_all("p", class_="chakra-text css-1c57jb4")
         hometown = p_tags[len(p_tags) - 1].text.strip()
-        print("here6")
         athletes.append({"Name": name, "Hometown": hometown})
         seen_athletes.add(name)  # Add to seen set
-        print(name, hometown)
     except Exception as e:
         print()
         #print(f"Error: {e}")
@@ -52,22 +44,35 @@ def extract_athletes(page_source):
 # Extract data from the initial page
 #extract_athletes(driver.page_source)
 
+previous_scroll_height = 0
+current_scroll_height = 1
+
 # Click "Load More" until no more button appears
 while True:
+
+    #driver.execute_script("window.scrollBy(0, 1100);")
+    #time.sleep(2)
     try:
         # Wait for the "Load more athletes" button to be clickable and click it
-        load_more_button = WebDriverWait(driver, 20).until(
+        previous_scroll_height = current_scroll_height
+        load_more_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="loadMoreButtonId"]'))
         )
-        driver.execute_script("window.scrollBy(0, document.body.scrollHeight / 4);")
         load_more_button.click()
-        print("reloading")
         time.sleep(3)  # Wait for new data to load
+        current_scroll_height = driver.execute_script("return document.body.scrollHeight;")
+        if current_scroll_height == previous_scroll_height:
+          print("End of page detected.")
+          print(current_scroll_height)
+          print(previous_scroll_height)
+          break
         #extract_athletes(driver.page_source)
         #print(driver.page_source)
     except:
         # Break the loop if there's no more button
-        break
+        driver.execute_script("window.scrollBy(0, 500);")  # Adjust the value for scroll amount
+        time.sleep(1)  # Allow page elements to adjust
+        #break
 
 extract_athletes(driver.page_source)
 
