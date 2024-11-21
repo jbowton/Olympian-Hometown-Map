@@ -61,27 +61,6 @@ def extract_athletes(page_source):
     except Exception as e:
         print(f"Error: {e}")
 
-# Extract data from the initial page
-#extract_athletes(driver.page_source)
-
-# Wait for the dropdown menu to load
-# dropdown = WebDriverWait(driver, 10).until(
-#     EC.presence_of_element_located((By.XPATH, '//*[@id="menu-button-:R1d6ilaqiuH1:"]/span[2]/svg'))  # Replace with actual XPath
-# )
-# dropdown.click()
-# option = WebDriverWait(driver, 10).until(
-#     EC.presence_of_element_located((By.XPATH, '//*[@id="menu-list-:R1d6ilaqiuH1:-menuitem-:R1blbd6ilaqiu:"]'))  # Replace "Soccer" with the sport
-# )
-# option.click()
-# # Select an option from the dropdown
-# select = Select(dropdown)
-# select.select_by_visible_text("Option Text")  # Replace with the visible text of the option
-# # Find and click the search button
-# search_button = WebDriverWait(driver, 10).until(
-#     EC.element_to_be_clickable((By.ID, "searchButtonId"))  # Replace with actual ID
-# )
-# search_button.click()
-
 previous_scroll_height = 0
 current_scroll_height = 1
 # Click "Load More" until no more button appears
@@ -91,7 +70,7 @@ while True:
     #driver.execute_script("window.scrollBy(0, 1100);")
     #time.sleep(2)
     try:
-        # Wait for the "Load more athletes" button to be clickable and click it
+        # Wait for the Load more athletes button to be clickable and click it
         previous_scroll_height = current_scroll_height
         load_more_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="loadMoreButtonId"]'))
@@ -105,7 +84,7 @@ while True:
           print(previous_scroll_height)
           break
     except:
-        #driver.execute_script("window.scrollBy(0, 500);")  # Adjust the value for scroll amount
+        #driver.execute_script("window.scrollBy(0, 500);")
         #time.sleep(1)  # Allow page elements to adjust
         break
 
