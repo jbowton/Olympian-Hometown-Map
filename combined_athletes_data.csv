@@ -1,0 +1,612 @@
+First Name,Last Name,Sport,Hometown,State,state_id,Gender,lat,lng,population
+BRADY,ELLISON,Archery,Billings,Montana,MT,Male,45.7891,-108.5526,131519
+CATALINA,GNORIEGA,Archery,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+CASEY,KAUFHOLD,Archery,Lancaster,Pennsylvania,PA,Female,40.042,-76.3012,402476
+JENNIFER,MUCINO-FERNANDEZ,Archery,Chula Vista,California,CA,Female,32.6281,-117.0144,276103
+ANITA,ALVAREZ,Artistic Swimming,Buffalo,New York,NY,Female,42.9018,-78.8487,944589
+JAIME,CZARKOWSKI,Artistic Swimming,Los Angeles,California,CA,Female,34.1141,-118.4068,11922389
+MEGUMI,FIELD,Artistic Swimming,Cerritos,California,CA,Female,33.8678,-118.0686,49016
+KEANA,HUNTER,Artistic Swimming,Issaquah,Washington,WA,Female,47.5439,-122.0471,39400
+AUDREY,KWON,Artistic Swimming,Los Angeles,California,CA,Female,34.1141,-118.4068,11922389
+JACKLYN,LUU,Artistic Swimming,Milpitas,California,CA,Female,37.4336,-121.8921,79092
+DANIELLA,RAMIREZ,Artistic Swimming,Miramar,Florida,FL,Female,25.9773,-80.3351,135158
+RUBY,REMATI,Artistic Swimming,Eugene,Oregon,OR,Female,44.0564,-123.1174,270990
+VINSON,CHIU,Badminton,Newport Beach,California,CA,Male,33.6151,-117.8668,85159
+JENNIE,GAI,Badminton,Fremont,California,CA,Female,37.5265,-121.9843,228795
+HOWARD,SHU,Badminton,Orange County,California,,Male,,,
+ANNIE,XU,Badminton,San Jose,California,CA,Female,37.3012,-121.848,1771413
+KERRY,XU,Badminton,San Jose,California,CA,Female,37.3012,-121.848,1771413
+JOSHUA,YUAN,Badminton,Foster City,California,CA,Male,37.5553,-122.2659,33215
+BEIWEN,ZHANG,Badminton,Las Vegas,Nevada,NV,Female,36.2333,-115.2654,2248047
+CANYON,BARRY,Basketball (3x3),Colorado Springs,Colorado,CO,Male,38.8674,-104.7605,638194
+CAMERON,BRINK,Basketball (3x3),Beaverton,Oregon,OR,Female,45.4779,-122.8168,97554
+CIERRA,BURDICK,Basketball (3x3),Charlotte,North Carolina,NC,Female,35.2083,-80.8303,1427444
+JIMMER,FREDETTE,Basketball (3x3),Denver,Colorado,CO,Male,39.762,-104.8758,2687458
+DEARICA,HAMBY,Basketball (3x3),Marietta,Georgia,GA,Female,33.9533,-84.5422,61387
+RHYNE,HOWARD,Basketball (3x3),Chattanooga,Tennessee,TN,Female,35.066,-85.2481,406849
+REEM,MADDOX,Basketball (3x3),Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+DYLAN,TRAVIS,Basketball (3x3),Omaha,Nebraska,NE,Male,41.2627,-96.0529,821345
+HAILEY,VAN LITH,Basketball (3x3),Wenatchee,Washington,WA,Female,47.436,-120.3295,76152
+BAM,ADEBAYO,Basketball (5x5),High Point,North Carolina,NC,Male,35.991,-79.9937,164836
+DEVIN,BOOKER,Basketball (5x5),Grand Rapids,Michigan,MI,Male,42.9619,-85.6562,609023
+NAPHEESA,COLLIER,Basketball (5x5),Jefferson City,Missouri,MO,Female,38.5676,-92.1759,42644
+KAHLEAH,COPPER,Basketball (5x5),Philadelphia,Pennsylvania,PA,Female,40.0077,-75.1339,5683533
+STEPHEN,CURRY,Basketball (5x5),Charlotte,North Carolina,NC,Male,35.2083,-80.8303,1427444
+ANTHONY,DAVIS,Basketball (5x5),Chicago,Illinois,IL,Male,41.8375,-87.6866,8497759
+KEVIN,DURANT,Basketball (5x5),Prince George'S County,Maryland,,Male,,,
+ANTHONY,EDWARDS,Basketball (5x5),Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+JOEL,EMBIID,Basketball (5x5),Villanova,Pennsylvania,PA,Male,40.0405,-75.341,8081
+CHELSEA,GRAY,Basketball (5x5),Hayward,California,CA,Female,37.6328,-122.0766,160602
+BRITTNEY,GRINER,Basketball (5x5),Houston,Texas,TX,Female,29.786,-95.3885,5970127
+TYRESE,HALIBURTON,Basketball (5x5),Oshkosh,Wisconsin,WI,Male,44.0227,-88.5619,74251
+JRUE,HOLIDAY,Basketball (5x5),Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+SABRINA,IONESCU,Basketball (5x5),Walnut Creek,California,CA,Female,37.9024,-122.0399,69809
+LEBRON,JAMES,Basketball (5x5),Akron,Ohio,OH,Male,41.0798,-81.5219,541945
+KAWHI,LEONARD,Basketball (5x5),Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+JEWELL,LOYD,Basketball (5x5),Lincolnwood,Illinois,IL,Female,42.0054,-87.733,13268
+KELSEY,PLUM,Basketball (5x5),Poway,California,CA,Female,32.9871,-117.0201,48737
+BREANNA,STEWART,Basketball (5x5),North Syracuse,New York,NY,Female,43.1339,-76.1304,6669
+JAYSON,TATUM,Basketball (5x5),Boston,Massachusetts,MA,Male,42.3188,-71.0852,4328315
+DIANA,TAURASI,Basketball (5x5),Glendale,California,CA,Female,34.1819,-118.2468,194512
+ALYSSA,THOMAS,Basketball (5x5),Camp Hill,Pennsylvania,PA,Female,40.2422,-76.9274,8133
+DERRICK,WHITE,Basketball (5x5),Parker,Colorado,CO,Male,39.5084,-104.7753,58733
+A'JA,WILSON,Basketball (5x5),Columbia,South Carolina,SC,Female,34.0378,-80.9036,604065
+JACKIE,YOUNG,Basketball (5x5),Princeton,Indiana,IN,Female,38.3553,-87.5784,8344
+ANDREW,BENESH,Beach Volleyball,Rancho Palos Verdes,California,CA,Male,33.7554,-118.3634,41805
+CHASE,BUDINGER,Beach Volleyball,Encinitas,California,CA,Male,33.0492,-117.261,61942
+KELLY,CHENG,Beach Volleyball,Fullerton,California,CA,Female,33.8841,-117.9279,142280
+MILES,EVANS,Beach Volleyball,Santa Barbara,California,CA,Male,34.4285,-119.7202,199023
+SARA,HUGHES,Beach Volleyball,Costa Mesa,California,CA,Female,33.6667,-117.9135,111490
+TARYN,KLOTH,Beach Volleyball,Sioux Falls,South Dakota,SD,Female,43.5396,-96.7311,204484
+KRISTEN,NUSS,Beach Volleyball,New Orleans,Louisiana,LA,Female,30.0687,-89.9288,932759
+MILES,PARTAIN,Beach Volleyball,Pacific Palisades,California,,Male,,,
+PERRIS,BENEGAS,BMX (Freestyle),Reno,Nevada,NV,Female,39.5497,-119.8483,457702
+MARCUS,CHRISTOPHER,BMX (Freestyle),Hartville,Ohio,OH,Male,40.9618,-81.3348,3318
+JUSTIN,DOWELL,BMX (Freestyle),Virginia Beach,Virginia,VA,Male,36.7335,-76.0435,1443020
+HANNAH,ROBERTS,BMX (Freestyle),Buchanan,Michigan,MI,Female,41.8283,-86.3656,4276
+KAMREN,LARSEN,BMX (Racing),Bakersfield,California,CA,Male,35.3529,-119.0359,571992
+FELICIA,STANCIL,BMX (Racing),Palm Harbor,Florida,FL,Female,28.0847,-82.7481,61589
+DALENY,VAUGHN,BMX (Racing),Tucson,Arizona,AZ,Female,32.1541,-110.8787,878320
+ALISE,WILLOUGHBY,BMX (Racing),Saint Cloud,Minnesota,,Female,,,
+CAMERON,WOOD,BMX (Racing),Bozeman,Montana,MT,Male,45.6833,-111.0558,65279
+JOSHUA TIMOTHY,EDWARDS,Boxing,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+JAJAIRA,GONZALEZ,Boxing,Glendora,California,CA,Female,34.1449,-117.8467,52095
+JAHMAL,HARVEY,Boxing,Oxon Hill,Maryland,MD,Male,38.7884,-76.9727,18526
+ROSCOE,HILL,Boxing,Detroit,Michigan,MI,Male,42.3834,-83.1024,3725908
+OMARI,JONES,Boxing,Orlando,Florida,FL,Male,28.4773,-81.337,1882705
+JENNIFER,LOZANO,Boxing,Laredo,Texas,TX,Female,27.5625,-99.4874,255293
+MORELLE,MCCANE,Boxing,Cleveland,Ohio,OH,Female,41.4764,-81.6805,1680247
+ALYSSA,MENDOZA,Boxing,Caldwell,Idaho,ID,Female,43.6453,-116.6594,61212
+JEFFREY,LOUIS,Breaking,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+LOGAN,EDRA,Breaking,Chula Vista,California,CA,Female,32.6281,-117.0144,276103
+GRACE,CHOI,Breaking,Louisville,Kentucky,KY,Female,38.1663,-85.6485,963812
+VICTOR,MONTALVO,Breaking,Kissimmee,Florida,FL,Male,28.3041,-81.4169,431618
+JONAS,ECKER,Canoe/Kayak,Bellingham,Washington,WA,Male,48.7548,-122.469,129880
+CASEY,EICHFELD,Canoe/Kayak,Huntersville,North Carolina,NC,Male,35.406,-80.8716,61202
+NEVIN,HARRISON,Canoe/Kayak,Seattle,Washington,WA,Female,47.6211,-122.3244,3561397
+EVY,LEIBFARTH,Canoe/Kayak,Bryson City,North Carolina,NC,Female,35.4262,-83.4475,1638
+AARON,SMALL,Canoe/Kayak,Seattle,Washington,WA,Male,47.6211,-122.3244,3561397
+OLIVIA,CUMMINS,Cycling,Fort Collins,Colorado,CO,Female,40.5477,-105.0656,335398
+CHLOE,DYGERT,Cycling,Brownsburg,Indiana,IN,Female,39.8337,-86.383,29379
+KRISTEN,FAULKNER,Cycling,Homer,Alaska,AK,Female,59.653,-151.5255,5623
+MATTEO,JORGENSON,Cycling,Boise,Idaho,ID,Male,43.6005,-116.2308,449776
+GRANT,KOONTZ,Cycling,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+BRANDON,MCNULTY,Cycling,Phoenix,Arizona,AZ,Male,33.5722,-112.0892,4064275
+MAGNUS,SHEFFIELD,Cycling,Pittsford,New York,,Male,,,
+JENNIFER,VALENTE,Cycling,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+LILY,WILLIAMS,Cycling,Tallahassee,Florida,FL,Female,30.4551,-84.2527,258696
+TAYLOR,KNIBB,"Cycling
+Triathlon",Boulder,Colorado,CO,Female,40.0248,-105.2524,118090
+RILEY,AMOS,Cycling (Mountain Bike),Durango,Colorado,CO,Male,37.2659,-107.8781,19148
+HALEY,BATTEN,Cycling (Mountain Bike),Park City,Utah,UT,Female,40.6502,-111.5013,8379
+CHRISTOPHER,BLEVINS,Cycling (Mountain Bike),Durango,Colorado,CO,Male,37.2659,-107.8781,19148
+SAVILIA,BLUNK,Cycling (Mountain Bike),Inverness,California,CA,Female,38.0821,-122.8471,1469
+SARAH,BACON,Diving,Indianapolis,Indiana,IN,Female,39.7771,-86.1458,1729849
+ANDREW,CAPOBIANCO,Diving,Wantagh,New York,NY,Male,40.6686,-73.5104,17995
+KASSIDY,COOK,Diving,The Woodlands,Texas,TX,Female,30.1738,-95.5134,118402
+TYLER,DOWNS,Diving,Ballwin,Missouri,MO,Male,38.595,-90.55,30948
+GREG,DUNCAN,Diving,Oakton,Virginia,VA,Male,38.8887,-77.3016,36529
+ALISON,GIBSON,Diving,Austin,Texas,TX,Female,30.3005,-97.7522,1905945
+BRANDON,LOSCHIAVO,Diving,Huntington Beach,California,CA,Male,33.696,-118.0018,197481
+JESSICA,PARRATTO,Diving,Dover,New Hampshire,NH,Female,43.1887,-70.8845,74554
+DELANEY,SCHNELL,Diving,Tucson,Arizona,AZ,Female,32.1541,-110.8787,878320
+CARSON,TYLER,Diving,Moultrie,Georgia,GA,Male,31.1591,-83.7708,14533
+DARYN,WRIGHT,Diving,Plainfield,Indiana,IN,Female,39.6954,-86.3716,35078
+WILLIAM,COLEMAN III,Equestrian,Gordonsville,Virginia,VA,Male,38.136,-78.1879,1946
+KARL,COOK,Equestrian,Rancho Santa Fe,California,CA,Male,33.024,-117.1992,3033
+KENT,FARRINGTON,Equestrian,Wellington,Florida,FL,Male,26.6461,-80.2699,61373
+ELISABETH,HALLIDAY,Equestrian,Ocala,Florida,FL,Female,29.178,-82.1511,186840
+LAURA,KRAUT,Equestrian,Wellington,Florida,FL,Female,26.6461,-80.2699,61373
+ADRIENNE,LYLE,Equestrian,Greenwood Village,Colorado,CO,Female,39.6153,-104.9131,15537
+BOYD,MARTIN,Equestrian,Cochranville,Pennsylvania,PA,Male,39.8905,-75.9241,488
+MARCUS,ORLOB,Equestrian,Loxahatchee,Florida,,Male,,,
+CAROLINE,PAMUKCU,Equestrian,Rieglesville,Pennsylvania,,Female,,,
+STEFFEN,PETERS,Equestrian,San Diego,California,CA,Male,32.8313,-117.1222,3046560
+MCLAIN,WARD,Equestrian,Brewster,New York,NY,Male,41.397,-73.6151,2506
+ANNE,CEBULA,Fencing,Brooklyn,New York,NY,Female,40.6501,-73.9496,2736074
+MAIA,CHAMBERLAIN,Fencing,Menlo Park,California,CA,Female,37.4685,-122.1673,33324
+MILES,CHAMLEY-WATSON,Fencing,New York,New York,NY,Male,40.6943,-73.9249,18908608
+ELI,DERSHWITZ,Fencing,Sherborn,Massachusetts,,Male,,,
+FILIP,DOLEGIEWICZ,Fencing,Park Ridge,Illinois,IL,Male,42.0125,-87.8436,39368
+JACQUELINE,DUBROVICH,Fencing,Riverdale,New Jersey,NJ,Female,40.9921,-74.3125,4081
+MARGHERITA,GUZZI VINCENTI,Fencing,Hartland,Wisconsin,WI,Female,43.1029,-88.3396,9599
+COLIN,HEATHCOCK,Fencing,"Beijing, China/Palo Alto, Ca",California,,Male,,,
+KATHARINE,HOLMES,Fencing,Washington,D.C.,,Female,,,
+HADLEY,HUSISIAN,Fencing,Oakton,Virginia,VA,Female,38.8887,-77.3016,36529
+NICK,ITKIN,Fencing,Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+LEE,KIEFER,Fencing,Lexington,Kentucky,KY,Female,38.0423,-84.4587,321276
+ALEXANDER,MASSIALAS,Fencing,San Francisco,California,CA,Male,37.7558,-122.4449,3364979
+GEREK,MEINHARDT,Fencing,Lexington,Kentucky,KY,Male,38.0423,-84.4587,321276
+TATIANA,NAZLYMOV,Fencing,Bethesda,Maryland,MD,Female,38.9866,-77.1188,66316
+MITCHELL,SARON,Fencing,Ridgewood,New Jersey,NJ,Male,40.9821,-74.1127,26043
+LAUREN,SCRUGGS,Fencing,"Ozone Park, Queens",New York,,Female,,,
+MAGDA,SKARBONKIEWICZ,Fencing,Portland,Oregon,OR,Female,45.5371,-122.65,2095808
+ELIZABETH,TARTAKOVSKY,Fencing,Livingston,New Jersey,,Female,,,
+MAIA,WEINTRAUB,Fencing,Philadelphia,Pennsylvania,PA,Female,40.0077,-75.1339,5683533
+KELSEY,BING,Field Hockey,Houston,Texas,TX,Female,29.786,-95.3885,5970127
+LEAH,CROUSE,Field Hockey,Virginia Beach,Virginia,VA,Female,36.7335,-76.0435,1443020
+BROOKE,DEBERDINE,Field Hockey,Lancaster,Pennsylvania,PA,Female,40.042,-76.3012,402476
+EMMA,DEBERDINE,Field Hockey,Millersville,Pennsylvania,PA,Female,40.0047,-76.3522,8426
+SOPHIA,GLADIEUX,Field Hockey,Oley Valley,Pennsylvania,,Female,,,
+AMANDA,GOLINI,Field Hockey,Randolph,New Jersey,,Female,,,
+ALEXANDRA,HAMMEL,Field Hockey,Duxbury,Massachusetts,,Female,,,
+ASHLEY,HOFFMAN,Field Hockey,Mohnton,Pennsylvania,PA,Female,40.2872,-75.987,2923
+KARLIE,KISHA,Field Hockey,Hamburg,Pennsylvania,PA,Female,40.5561,-75.9825,4342
+KELEE,LEPAGE,Field Hockey,Honey Brook,Pennsylvania,,Female,,,
+MEGAN,ROGERS,Field Hockey,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+ASHLEY,SESSA,Field Hockey,Limerick,Pennsylvania,,Female,,,
+MEREDITH,SHOLDER,Field Hockey,Fleetwood,Pennsylvania,PA,Female,40.4565,-75.8209,4046
+ABIGAIL,TAMER,Field Hockey,Dexter,Michigan,MI,Female,42.3319,-83.8803,4505
+ELIZABETH,YEAGER,Field Hockey,Greenwich,Connecticut,,Female,,,
+MADELEINE,ZIMMER,Field Hockey,Hershey,Pennsylvania,PA,Female,40.2806,-76.6458,14682
+WYNDHAM,CLARK,Golf,Denver,Colorado,CO,Male,39.762,-104.8758,2687458
+NELLY,KORDA,Golf,Bradenton,Florida,FL,Female,27.4901,-82.5757,55795
+COLLIN,MORIKAWA,Golf,La Canada,California,,Male,,,
+XANDER,SCHAUFFELE,Golf,San Diego,California,CA,Male,32.8313,-117.1222,3046560
+SCOTTIE,SCHEFFLER,Golf,Dallas,Texas,TX,Male,32.7935,-96.7667,5830932
+LILIA,VU,Golf,Fountain Valley,California,CA,Female,33.7105,-117.9514,56754
+ROSE,ZHANG,Golf,Irvine,California,CA,Female,33.6772,-117.7738,304527
+SIMONE,BILES,Gymnastics,Spring,Texas,TX,Female,30.0613,-95.383,63930
+JADE,CAREY,Gymnastics,Phoenix,Arizona,AZ,Female,33.5722,-112.0892,4064275
+JORDAN,CHILES,Gymnastics,Conroe,Texas,TX,Female,30.3238,-95.4824,92475
+EVITA,GRISKENAS,Gymnastics,Orland Park,Illinois,IL,Female,41.6075,-87.8619,58345
+ASHER,HONG,Gymnastics,Tomball,Texas,TX,Male,30.0951,-95.6194,12630
+PAUL,JUDA,Gymnastics,Deerfield,Illinois,IL,Male,42.1654,-87.8516,19173
+SUNISA,LEE,Gymnastics,Saint Paul,Minnesota,,Female,,,
+BRODY,MALONE,Gymnastics,Rockmart,Georgia,GA,Male,34.0103,-85.044,5113
+STEPHEN,NEDOROSCIK,Gymnastics,Worcester,Massachusetts,MA,Male,42.2705,-71.8079,486486
+FREDERICK,RICHARD,Gymnastics,Stoughton,Massachusetts,,Male,,,
+HEZLY,RIVERA,Gymnastics,Oradell,New Jersey,NJ,Female,40.9562,-74.0314,8208
+ALIAKSEI,SHOSTAK,Gymnastics,Lafayette,Louisiana,LA,Male,30.2082,-92.0325,237565
+JESSICA,STEVENS,Gymnastics,Ellicott City,Maryland,MD,Female,39.2774,-76.8345,73589
+ANGELICA,DELGADO,Judo,Miami,Florida,FL,Female,25.784,-80.2101,6080145
+JOHN,JAYNE,Judo,Chicago,Illinois,IL,Male,41.8375,-87.6866,8497759
+MARIA CELIA,LABORDE,Judo,Kenosha,Wisconsin,WI,Female,42.5865,-87.8773,124297
+JACK,YONEZUKA,Judo,West Long Branch,New Jersey,NJ,Male,40.2883,-74.0185,8547
+JESSICA,DAVIS,Modern Pentathlon,Bethlehem,Connecticut,,Female,,,
+WILLIAM,BENDER,Rowing,Norwich,Vermont,,Male,,,
+JUSTIN,BEST,Rowing,Kennett Square,Pennsylvania,PA,Male,39.8438,-75.7113,5982
+MOLLY,BRUGGEMAN,Rowing,Dayton,Ohio,OH,Female,39.7805,-84.2003,668825
+OLIVER,BUB,Rowing,Westport,Connecticut,,Male,,,
+CHARLOTTE,BUCK,Rowing,Nyack,New York,NY,Female,41.0919,-73.9143,7057
+CHRIS,CARLSON,Rowing,Bedford,New Hampshire,,Male,,,
+NINA,CASTAGNA,Rowing,Cincinnati,Ohio,OH,Female,39.1413,-84.506,1692702
+PETER,CHATAIN,Rowing,Winnetka,Illinois,IL,Male,42.1064,-87.7421,12607
+OLIVIA,COFFEY,Rowing,Watkins Glen,New York,NY,Female,42.3801,-76.8673,1777
+TEAL,COHEN,Rowing,Dallas,Texas,TX,Female,32.7935,-96.7667,5830932
+CLAIRE,COLLINS,Rowing,Mclean,Virginia,VA,Female,38.9436,-77.1943,49587
+LIAM,CORRIGAN,Rowing,Old Lyme,Connecticut,,Male,,,
+AZJA,CZAJKOWSKI,Rowing,Imperial Beach,California,CA,Female,32.5693,-117.118,26157
+BEN,DAVISON,Rowing,Inverness,Florida,FL,Male,28.8416,-82.3418,7602
+CLARK,DEAN,Rowing,Sarasota,Florida,FL,Male,27.3387,-82.5432,55508
+EMILY,DELLEMAN,Rowing,Davenport,Iowa,IA,Female,41.5565,-90.6053,281333
+MICHAEL,GRADY,Rowing,Pittsburgh,Pennsylvania,PA,Male,40.4397,-79.9763,1749091
+MARGARET,HEDEMAN,Rowing,Concord,Massachusetts,,Female,,,
+HENRY,HOLLINGSWORTH,Rowing,Dover,Massachusetts,,Male,,,
+GRACE,JOYCE,Rowing,Northfield,Illinois,IL,Female,42.1025,-87.7791,5707
+EMILY,KALLFELZ,Rowing,Jamestown,Rhode Island,,Female,,,
+KATE,KNIFTON,Rowing,Austin,Texas,TX,Female,30.3005,-97.7522,1905945
+KARA,KOHLER,Rowing,Clayton,California,CA,Female,37.9404,-121.9301,11070
+SORIN,KOSZYK,Rowing,Grosse Pointe Park,Michigan,MI,Male,42.3794,-82.9287,11513
+DAISY,MAZZIO-MANSON,Rowing,Wellesley,Massachusetts,,Female,,,
+NICK,MEAD,Rowing,Strafford,Pennsylvania,,Male,,,
+RIELLY,MILNE,Rowing,Woodinville,Washington,WA,Male,47.757,-122.1477,13301
+MEGHAN,MUSNICKI,Rowing,Naples,New York,,Female,,,
+LAUREN,O'CONNOR,Rowing,Belleville,Wisconsin,WI,Female,42.8643,-89.5402,2712
+EVAN,OLSON,Rowing,Bothell,Washington,WA,Male,47.7735,-122.2044,47917
+JACOB,PLIHAL,Rowing,Vashon Island,Washington,,Male,,,
+PIETER,QUINTON,Rowing,Portland,Oregon,OR,Male,45.5371,-122.65,2095808
+MOLLY,RECKFORD,Rowing,Short Hills,New Jersey,NJ,Female,40.7389,-74.3278,14448
+KELSEY,REELICK,Rowing,Brookfield,Connecticut,,Female,,,
+NICK,RUSHER,Rowing,West Bend,Wisconsin,WI,Male,43.4173,-88.1818,31682
+REGINA,SALMONS,Rowing,Methuen,Massachusetts,,Female,,,
+MICHELLE,SECHSER,Rowing,San Luis Obispo,California,CA,Female,35.2669,-120.669,47529
+CHRISTIAN,TABASH,Rowing,Alexandria,Virginia,VA,Male,38.8185,-77.0861,157594
+JESS,THOENNES,Rowing,Highlands Ranch,Colorado,CO,Female,39.5419,-104.9708,101514
+SOPHIA,VITAS,Rowing,Franklin,Wisconsin,WI,Female,42.8854,-88.0104,36513
+KRISTI,WAGNER,Rowing,Weston,Massachusetts,,Female,,,
+MADDIE,WANAMAKER,Rowing,Neenah,Wisconsin,WI,Female,44.1669,-88.4767,27309
+PERRY,BAKER,Rugby,New Smyrna Beach,Florida,FL,Male,29.0249,-80.9652,30449
+ORRIN,BIZER,Rugby,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+KAYLA,CANETT,Rugby,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+ADAM,CHANNEL,Rugby,Long Beach,California,CA,Male,33.7977,-118.167,462293
+AARON,CUMMINGS,Rugby,Muskegon,Michigan,MI,Male,43.2281,-86.2562,166847
+LAUREN,DOYLE,Rugby,Boody,Illinois,IL,Female,39.7644,-89.0467,411
+MALACCHI,ESDALE,Rugby,Newark,Delaware,DE,Male,39.6776,-75.7576,30655
+NAIMA,FUALA'AU,Rugby,Hayward,California,CA,Male,37.6328,-122.0766,160602
+MADISON,HUGHES,Rugby,Lancaster,Massachusetts,,Male,,,
+ALEV,KELTER,Rugby,Eagle River,Alaska,,Female,,,
+KRISTI,KIRSHE,Rugby,Franklin,Massachusetts,,Female,,,
+LUCAS,LACAMP,Rugby,San Diego,California,CA,Male,32.8313,-117.1222,3046560
+MATAI,LEUTA,Rugby,Monterey,California,CA,Male,36.5919,-121.8808,30007
+SARAH,LEVY,Rugby,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+ILONA,MAHER,Rugby,Burlington,Vermont,VT,Female,44.4876,-73.2316,123307
+ALENA,OLSEN,Rugby,Caledonia,Michigan,MI,Female,42.7945,-85.5153,1808
+ARIANA,RAMSEY,Rugby,Philadelphia,Pennsylvania,PA,Female,40.0077,-75.1339,5683533
+STEPH,ROVETTI,Rugby,Reno,Nevada,NV,Female,39.5497,-119.8483,457702
+ALEX,SEDRICK,Rugby,Herriman,Utah,UT,Female,40.4899,-112.017,55301
+SAMMY,SULLIVAN,Rugby,Fayetteville,North Carolina,NC,Female,35.085,-78.9772,328804
+NAYA,TAPPER,Rugby,Charlotte,North Carolina,NC,Female,35.2083,-80.8303,1427444
+STEVE,TOMASIN,Rugby,Santa Rosa,California,CA,Male,38.4458,-122.7067,296180
+MARCUS,TUPUOLA,Rugby,Carson,California,CA,Male,33.8374,-118.2559,94475
+MAKA,UNUFE,Rugby,Provo,Utah,UT,Male,40.2457,-111.6457,619218
+PITA,VI,Rugby,Sacramento,California,CA,Male,38.5677,-121.4685,1957738
+KEVON,WILLIAMS,Rugby,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+IAN,BARROWS,Sailing,St. Thomas,US Virgin Islands,,Male,,,
+LARA,DALLMAN-WEISS,Sailing,Shoreview,Minnesota,MN,Female,45.0842,-93.1358,26846
+MARKUS,EDEGRAN,Sailing,Ossining,New York,,Male,,,
+HANS,HENKEN,Sailing,San Clemente,California,CA,Male,33.4499,-117.6102,64232
+DAVID,LIEBENBERG,Sailing,Richmond,California,CA,Male,37.9477,-122.3389,115619
+NOAH,LYONS,Sailing,Clearwater,Florida,FL,Male,27.979,-82.7623,116984
+STUART,MCNAY,Sailing,Barrington,Rhode Island,,Male,,,
+DANIELA,MOROZ,Sailing,Lafayette,California,CA,Female,37.8919,-122.1189,25310
+SARAH,NEWBERRY MOORE,Sailing,Miami,Florida,FL,Female,25.784,-80.2101,6080145
+ERIKA,REINEKE,Sailing,Fort Lauderdale,Florida,FL,Female,26.1412,-80.1464,182673
+STEPHANIE,ROBLE,Sailing,East Troy,Wisconsin,WI,Female,42.7846,-88.3973,4669
+MAGGIE,SHEA,Sailing,Wilmette,Illinois,IL,Female,42.0771,-87.7282,27801
+DOMINIQUE,STATER,Sailing,Miami,Florida,FL,Female,25.784,-80.2101,6080145
+KATELYN MORGAN,ABELN,Shooting,Douglasville,Georgia,GA,Female,33.7384,-84.7054,35252
+VINCENT,HANCOCK,Shooting,Argyle,Texas,TX,Male,33.1102,-97.1867,4638
+WILLIAM,HINTON,Shooting,Dacula,Georgia,GA,Male,33.9815,-83.8952,6906
+RYLAN WILLIAM,KISSELL,Shooting,Littleton,Colorado,CO,Male,39.5915,-105.0188,45531
+ADA CLAUDIA,KORKHIN,Shooting,Brookline,Massachusetts,,Female,,,
+ALEXIS,LAGAN,Shooting,Boulder City,Nevada,NV,Female,35.8407,-114.9257,14868
+HENRY TURNER,LEVERETT,Shooting,Bainbridge,Georgia,GA,Male,30.9052,-84.5732,14234
+SAGEN,MADDALENA,Shooting,Groveland,California,CA,Female,37.8325,-120.2392,591
+DERRICK SCOTT,MEIN,Shooting,Paola,Kansas,KS,Male,38.5788,-94.8617,5742
+RYANN PAIGE,PHILLIPS,Shooting,Gail,Texas,TX,Female,32.767,-101.4465,232
+CONNER LYNN,PRINCE,Shooting,Burleson,Texas,TX,Male,32.517,-97.3344,48970
+IVAN,ROE,Shooting,Manhattan,Montana,MT,Male,45.8622,-111.3344,1986
+KEITH,SANDERSON,Shooting,Monument,Colorado,CO,Male,39.0736,-104.8467,10548
+AUSTEN JEWELL,SMITH,Shooting,Keller,Texas,TX,Female,32.9335,-97.2256,45320
+RACHEL LEIGHANNE,TOZIER,Shooting,Pattonsburg,Missouri,MO,Female,40.0715,-94.106,276
+MARY CAROLYNN,TUCKER,Shooting,Sarasota,Florida,FL,Female,27.3387,-82.5432,55508
+DANIA JO,VIZZI,Shooting,Tampa,Florida,FL,Female,27.9945,-82.4447,2861173
+GAVIN,BOTTGER,Skateboarding,Oceanside,California,CA,Male,33.2247,-117.3083,173722
+TATE,CAREW,Skateboarding,San Diego,California,CA,Male,32.8313,-117.1222,3046560
+MARIAH,DURAN,Skateboarding,Albuquerque,New Mexico,NM,Female,35.1054,-106.6465,769986
+JAGGER,EATON,Skateboarding,Mesa,Arizona,AZ,Male,33.4015,-111.7178,503390
+PAIGE,HEYN,Skateboarding,Tempe,Arizona,AZ,Female,33.3881,-111.9319,181005
+NYJAH,HUSTON,Skateboarding,Laguna Beach,California,CA,Male,33.5455,-117.7613,22943
+CHRIS,JOSLIN,Skateboarding,Hawaiian Gardens,California,CA,Male,33.8304,-118.0728,14011
+RUBY,LILLEY,Skateboarding,Oceanside Ca,California,,Female,,,
+POE,PINSON,Skateboarding,Fernandina Beach,Florida,FL,Female,30.6571,-81.4511,13028
+TOM,SCHAAR,Skateboarding,Cardiff,California,,Male,,,
+MINNA,STESS,Skateboarding,Petaluma,California,CA,Female,38.2423,-122.6266,59682
+BRYCE,WETTSTEIN,Skateboarding,Encinitas,California,CA,Female,33.0492,-117.261,61942
+PAXTEN,AARONSON,Soccer,Medford,New Jersey,,Male,,,
+KORBIN,ALBERT,Soccer,Grayslake,Illinois,IL,Female,42.3405,-88.0338,20801
+JOSHUA,ATENCIO,Soccer,Bellevue,Washington,WA,Male,47.5951,-122.1535,150606
+CROIX,BETHUNE,Soccer,Alpharetta,Georgia,GA,Female,34.0704,-84.2738,65884
+TAYLOR,BOOTH,Soccer,Eden,Utah,UT,Male,41.3022,-111.8085,885
+GIANLUCA,BUSIO,Soccer,Greensboro,North Carolina,NC,Male,36.0956,-79.8271,347130
+SAMANTHA,COFFEY,Soccer,Sleepy Hollow,New York,NY,Female,41.0936,-73.8722,10396
+BENJAMIN,CREMASCHI,Soccer,Miami,Florida,FL,Male,25.784,-80.2101,6080145
+TIERNA,DAVIDSON,Soccer,Menlo Park,California,CA,Female,37.4685,-122.1673,33324
+MAXIMILIAN,DIETZ,Soccer,Frankfurt,Germany,,Male,,,
+CRYSTAL,DUNN,Soccer,Rockville Centre,New York,NY,Female,40.6643,-73.6383,25784
+EMILY,FOX,Soccer,Ashburn,Virginia,VA,Female,39.0277,-77.4714,45479
+NAOMI,GIRMA,Soccer,San Jose,California,CA,Female,37.3012,-121.848,1771413
+NATHAN,HARRIEL,Soccer,Oldsmar,Florida,FL,Male,28.0506,-82.6698,14877
+LINDSEY,HORAN,Soccer,Golden,Colorado,CO,Female,39.7406,-105.2118,20461
+CASEY,KRUEGER,Soccer,Naperville,Illinois,IL,Female,41.748,-88.1659,149089
+ROSE,LAVELLE,Soccer,Cincinnati,Ohio,OH,Female,39.1413,-84.506,1692702
+CATARINA,MACARIO,Soccer,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+EMILY,MADRIL,Soccer,Boise,Idaho,ID,Female,43.6005,-116.2308,449776
+JACK,MCGLYNN,Soccer,Queens,New York,NY,Male,40.7498,-73.7976,2405464
+DUNCAN,MCGUIRE,Soccer,Omaha,Nebraska,NE,Male,41.2627,-96.0529,821345
+DJORDJE,MIHAILOVIC,Soccer,Lemony,Illinois,,Male,,,
+CASEY,MURPHY,Soccer,Bridgewater,New Jersey,,Female,,,
+ALYSSA,NAEHER,Soccer,Stratford,Connecticut,,Female,,,
+JENNA,NIGHSWONGER,Soccer,Huntington Beach,California,CA,Female,33.696,-118.0018,197481
+KEVIN,PAREDES,Soccer,South Riding,Virginia,VA,Male,38.912,-77.5132,33358
+MILES,ROBINSON,Soccer,Arlington,Massachusetts,,Male,,,
+TRINITY,RODMAN,Soccer,Newport Beach,California,CA,Female,33.6151,-117.8668,85159
+PATRICK,SCHULTE,Soccer,St. Peters,Missouri,MO,Male,38.7825,-90.6061,57692
+JAEDYN,SHAW,Soccer,Frisco,Texas,TX,Female,33.156,-96.8216,202075
+GABRIEL,SLONINA,Soccer,Addison,Illinois,IL,Male,41.9313,-88.0085,35685
+SOPHIA,SMITH,Soccer,Windsor,Colorado,CO,Female,40.469,-104.9198,33905
+EMILY,SONNETT,Soccer,Marietta,Georgia,GA,Female,33.9533,-84.5422,61387
+MALLORY,SWANSON,Soccer,Highlands Ranch,Colorado,CO,Female,39.5419,-104.9708,101514
+TANNER,TESSMANN,Soccer,Birmingham,Alabama,AL,Male,33.5279,-86.7971,782111
+JOHN,TOLKIN,Soccer,Chatham,New Jersey,,Male,,,
+CALEB,WILEY,Soccer,Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+LYNN,WILLIAMS,Soccer,Fresno,California,CA,Female,36.783,-119.7939,725276
+GRIFFIN,YOW,Soccer,Clifton,Virginia,VA,Male,38.7802,-77.3866,358
+WALKER,ZIMMERMAN,Soccer,Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+COLIN,DUFFY,Sport Climbing,Broomfield,Colorado,CO,Male,39.9542,-105.0526,73946
+NATALIA,GROSSMAN,Sport Climbing,Santa Cruz,California,CA,Female,36.9789,-122.0346,167835
+JESSE,GRUPPER,Sport Climbing,Montclair,New Jersey,,Male,,,
+ZACH,HAMMER,Sport Climbing,Ann Arbor,Michigan,MI,Male,42.2759,-83.731,308983
+EMMA,HUNT,Sport Climbing,Woodstock,Georgia,GA,Female,34.1026,-84.5091,35171
+PIPER,KELLY,Sport Climbing,Indianapolis,Indiana,IN,Female,39.7771,-86.1458,1729849
+BROOKE,RABOUTOU,Sport Climbing,Boulder,Colorado,CO,Female,40.0248,-105.2524,118090
+SAM,WATSON,Sport Climbing,Southlake,Texas,TX,Male,32.9545,-97.1503,30779
+GRIFFIN,COLAPINTO,Surfing,San Clemente,California,CA,Male,33.4499,-117.6102,64232
+JOHN JOHN,FLORENCE,Surfing,Haleiwa,Hawaii,HI,Male,21.5965,-158.1003,4708
+CAROLINE,MARKS,Surfing,Ponce Inlet,Florida,FL,Female,29.0927,-80.9472,3364
+CARISSA,MOORE,Surfing,Honolulu,Hawaii,HI,Female,21.3294,-157.846,348547
+CAITLIN,SIMMERS,Surfing,Oceanside,California,CA,Female,33.2247,-117.3083,173722
+JACK,ALEXY,Swimming,Mendham,New Jersey,,Male,,,
+HUNTER,ARMSTRONG,Swimming,Dover,Ohio,OH,Male,40.5304,-81.4806,13118
+PHOEBE,BACON,Swimming,Chevy Chase,Maryland,MD,Female,38.9944,-77.0738,9789
+KATHARINE,BERKOFF,Swimming,Missoula,Montana,MT,Female,46.8751,-114.0214,88780
+SHAINE,CASAS,Swimming,Mcallen,Texas,TX,Male,26.2252,-98.2467,797341
+ERIKA,CONNOLLY,Swimming,Knoxville,Tennessee,TN,Female,35.9692,-83.9496,615829
+BROOKS,CURRY,Swimming,Dunwoody,Georgia,GA,Male,33.9418,-84.3122,51458
+KATE,DOUGLASS,Swimming,Pelham,New York,,Female,,,
+CAELEB,DRESSEL,Swimming,Micanopy,Florida,FL,Male,29.506,-82.2806,522
+MATT,FALLON,Swimming,Warren,New Jersey,,Male,,,
+NIC,FINK,Swimming,Morristown,New Jersey,NJ,Male,40.7967,-74.4772,20126
+BOBBY,FINKE,Swimming,Clearwater,Florida,FL,Male,27.979,-82.7623,116984
+CARSON,FOSTER,Swimming,Montgomery,Ohio,OH,Male,39.2496,-84.3458,10816
+ERIN,GEMMELL,Swimming,Potomac,Maryland,MD,Female,39.0141,-77.1943,46499
+KATIE,GRIMES,Swimming,Las Vegas,Nevada,NV,Female,36.2333,-115.2654,2248047
+CHRIS,GUILIANO,Swimming,Douglassville,Pennsylvania,PA,Male,40.2577,-75.7251,431
+THOMAS,HEILMAN,Swimming,Crozet,Virginia,VA,Male,38.0645,-78.6961,8894
+RYAN,HELD,Swimming,Springfield,Illinois,IL,Male,39.7709,-89.654,159671
+LUKE,HOBSON,Swimming,"Reno, Nevada",Nevada,,Male,,,
+TORRI,HUSKE,Swimming,Arlington,Virginia,VA,Female,38.8786,-77.1011,235845
+DAVID,JOHNSTON,Swimming,Dallas,Texas,TX,Male,32.7935,-96.7667,5830932
+KEATON,JONES,Swimming,Gilbert,Arizona,AZ,Male,33.31,-111.7463,267267
+CHASE,KALISZ,Swimming,Baltimore,Maryland,MD,Male,39.3051,-76.6144,2196524
+DREW,KIBLER,Swimming,Carmel,Indiana,IN,Male,39.965,-86.146,99453
+MATT,KING,Swimming,Snohomish,Washington,WA,Male,47.9276,-122.0969,10133
+LILLY,KING,Swimming,Evansville,Indiana,IN,Female,37.9881,-87.5341,203661
+KATIE,LEDECKY,Swimming,Bethesda,Maryland,MD,Female,38.9866,-77.1188,66316
+PAIGE,MADDEN,Swimming,Mobile,Alabama,AL,Female,30.6782,-88.1162,320855
+SIMONE,MANUEL,Swimming,Sugar Land,Texas,TX,Female,29.5935,-95.6358,110077
+JOSH,MATHENY,Swimming,Pittsburgh,Pennsylvania,PA,Male,40.4397,-79.9763,1749091
+RYAN,MURPHY,Swimming,Jacksonville,Florida,FL,Male,30.3322,-81.6749,1288298
+ANNA,PEPLOWSKI,Swimming,Germantown Hills,Illinois,IL,Female,40.7711,-89.4669,3433
+BLAKE,PIERONI,Swimming,Valparaiso,Indiana,IN,Male,41.4783,-87.0506,33991
+IVAN,PUSKOVITCH,Swimming,West Chester,Pennsylvania,PA,Male,39.9601,-75.6058,19016
+ALEX,SHACKELL,Swimming,Carmel,Indiana,IN,Female,39.965,-86.146,99453
+AARON,SHACKELL,Swimming,Carmel,Indiana,IN,Male,39.965,-86.146,99453
+REGAN,SMITH,Swimming,Lakeville,Minnesota,MN,Female,44.6774,-93.252,70696
+KIERAN,SMITH,Swimming,Ridgefield,Connecticut,,Male,,,
+CHARLIE,SWANSON,Swimming,Richmond,Virginia,VA,Male,37.5295,-77.4756,1073223
+LUCA,URLANDO,Swimming,Sacramento,California,CA,Male,38.5677,-121.4685,1957738
+GRETCHEN,WALSH,Swimming,Nashville,Tennessee,TN,Female,36.1715,-86.7842,1177657
+ALEX,WALSH,Swimming,Nashville,Tennessee,TN,Female,36.1715,-86.7842,1177657
+EMMA,WEBER,Swimming,Denver,Colorado,CO,Female,39.762,-104.8758,2687458
+CLAIRE,WEINSTEIN,Swimming,Las Vegas,Nevada,NV,Female,36.2333,-115.2654,2248047
+ABBEY,WEITZEIL,Swimming,Santa Clarita Ca,California,,Female,,,
+EMMA,WEYANT,Swimming,Sarasota,Florida,FL,Female,27.3387,-82.5432,55508
+LUKE,WHITLOCK,Swimming,Noblesville,Indiana,IN,Male,40.0355,-86.0042,70442
+MARIAH,DENIGAN,Swimming ,Union,Kentucky,KY,Female,38.9469,-84.6729,7369
+KANAK,JHA,Table Tennis,Milpitas,California,CA,Male,37.4336,-121.8921,79092
+RACHEL,SUNG,Table Tennis,Campbell,California,CA,Female,37.2802,-121.9539,43464
+AMY,WANG,Table Tennis,Sewell,New Jersey,NJ,Female,39.7696,-75.1443,3132
+LILY,ZHANG,Table Tennis,Palo Alto,California,CA,Female,37.3905,-122.1468,67901
+FAITH,DILLON,Taekwondo,Las Vegas,Nevada,NV,Female,36.2333,-115.2654,2248047
+JONATHAN,HEALY,Taekwondo,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+CJ,NICKOLAS,Taekwondo,Brentwood,California,CA,Male,37.9356,-121.719,64443
+KRISTINA,TEACHOUT,Taekwondo,Palm Bay,Florida,FL,Female,27.9631,-80.6593,534348
+DANIELLE,COLLINS,Tennis,St. Petersburg,Florida,FL,Female,27.7931,-82.6652,259343
+CHRISTOPHER,EUBANKS,Tennis,Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+TAYLOR,FRITZ,Tennis,Rancho Santa Fe,California,CA,Male,33.024,-117.1992,3033
+COCO,GAUFF,Tennis,Delray Beach,Florida,FL,Female,26.455,-80.0905,66646
+MARCOS,GIRON,Tennis,Thousand Oaks,California,CA,Male,34.1914,-118.8756,209570
+AUSTIN,KRAJICEK,Tennis,Allen,Texas,TX,Male,33.1088,-96.6735,105444
+DESIRAE,KRAWCZYK,Tennis,Palm Desert,California,CA,Female,33.7378,-116.3695,51290
+EMMA,NAVARRO,Tennis,Charleston,South Carolina,SC,Female,32.8168,-79.9687,706884
+TOMMY,PAUL,Tennis,Greenville,New Jersey,,Male,,,
+JESSICA,PEGULA,Tennis,Buffalo,New York,NY,Female,42.9018,-78.8487,944589
+RAJEEV,RAM,Tennis,Carmel,Indiana,IN,Male,39.965,-86.146,99453
+NIA,AKINS,Track and Field,San Diego,California,CA,Female,32.8313,-117.1222,3046560
+CJ,ALLEN,Track and Field,Allyn,Washington,WA,Male,47.3863,-122.8386,2249
+VALARIE,ALLMAN,Track and Field,Longmont,Colorado,CO,Female,40.1686,-105.1005,101642
+CHRISTOPHER,BAILEY,Track and Field,Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+HEATH,BALDWIN,Track and Field,Kalamazoo,Michigan,MI,Male,42.2749,-85.5882,200838
+TREVOR,BASSITT,Track and Field,Bluffton,Ohio,OH,Male,40.8912,-83.8887,3540
+KENNETH,BEDNAREK,Track and Field,Rice Lake,Wisconsin,WI,Male,45.4864,-91.7447,8990
+RAI,BENJAMIN,Track and Field,Mount Vernon,New York,NY,Male,40.9136,-73.8291,72817
+GRAHAM,BLANKS,Track and Field,Athens,Georgia,GA,Male,33.9508,-83.3689,143173
+TALIYAH,BROOKS,Track and Field,Wichita Falls,Texas,TX,Female,33.9072,-98.5291,102482
+JOSEPH,BROWN,Track and Field,Mansfield,Texas,TX,Male,32.569,-97.1213,73680
+BRITTANY,BROWN,Track and Field,Pomona/ Claremont,California,,Female,,,
+KAYLYN,BROWN,Track and Field,Charlotte,North Carolina,NC,Female,35.2083,-80.8303,1427444
+AALIYAH NICKOLE,BUTLER,Track and Field,Fort Lauderdale,Florida,FL,Female,26.1412,-80.1464,182673
+MALCOLM,CLEMONS,Track and Field,Oakland,California,CA,Male,37.7904,-122.2166,437825
+ANNA,COCKRELL,Track and Field,Charlotte,North Carolina,NC,Female,35.2083,-80.8303,1427444
+CHRISTIAN,COLEMAN,Track and Field,Atlanta,Georgia,GA,Male,33.7628,-84.422,5180179
+VALERIE,CONSTIEN,Track and Field,Edwards,Colorado,CO,Female,39.6215,-106.6184,10721
+JAMES ANDRES,CORRIGAN,Track and Field,Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+ELISE,CRANNY,Track and Field,Boulder,Colorado,CO,Female,40.0248,-105.2524,118090
+FREDDIE,CRITTENDEN,Track and Field,St. Louis,Missouri,MO,Male,38.6359,-90.2451,2130881
+RYAN,CROUSER,Track and Field,Boring,Oregon,OR,Male,45.4304,-122.3716,1987
+VASHTI,CUNNINGHAM,Track and Field,Las Vegas,Nevada,NV,Female,36.2333,-115.2654,2248047
+TAMARI,DAVIS,Track and Field,Gainesville,Florida,FL,Female,29.6804,-82.3459,220929
+JEREMIAH JASHON,DAVIS,Track and Field,Fort Myers,Florida,FL,Male,26.6194,-81.8302,88699
+TARA,DAVIS-WOODHALL,Track and Field,Fayetteville,Arkansas,AR,Female,36.0714,-94.1661,394650
+BRYCE,DEADMON,Track and Field,Houston,Texas,TX,Male,29.786,-95.3885,5970127
+ANNETTE NNEKA,ECHIKUNWOKE,Track and Field,Columbus,Ohio,OH,Female,39.9862,-82.9855,1572546
+KENDALL,ELLIS,Track and Field,Pembroke Pines,Florida,FL,Female,26.0128,-80.3382,170472
+ANDREW,EVANS,Track and Field,Portage,Michigan,MI,Male,42.2,-85.5906,48936
+GRANT,FISHER,Track and Field,Grand Blanc,Michigan,MI,Male,42.9258,-83.6181,8034
+VERONICA,FRALEY,Track and Field,Raleigh,North Carolina,NC,Female,35.8324,-78.6429,1163152
+TORI,FRANKLIN,Track and Field,Chicago,Illinois,IL,Female,41.8375,-87.6866,8497759
+RACHEL,GLENN,Track and Field,Long Beach,California,CA,Female,33.7977,-118.167,462293
+ANNA,HALL,Track and Field,Greenwood Village,Colorado,CO,Female,39.6153,-104.9131,15537
+QUINCY,HALL,Track and Field,Kansas City,Missouri,MO,Male,39.1238,-94.5541,1689556
+JUVAUGHN,HARRISON,Track and Field,Huntsville,Alabama,AL,Male,34.6981,-86.6412,349482
+DANIEL,HAUGH,Track and Field,Marietta,Georgia,GA,Male,33.9533,-84.5422,61387
+CHARI,HAWKINS,Track and Field,Rexburg,Idaho,ID,Female,43.8226,-111.7919,38803
+QUANERA,HAYES,Track and Field,Hope Mills,North Carolina,NC,Female,34.971,-78.9597,17671
+NIKKI,HILTZ,Track and Field,Santa Cruz,California,CA,Female,36.9789,-122.0346,167835
+ALEIA,HOBBS,Track and Field,New Orleans,Louisiana,LA,Female,30.0687,-89.9288,932759
+COLE,HOCKER,Track and Field,Indianapolis,Indiana,IN,Male,39.7771,-86.1458,1729849
+GRANT,HOLLOWAY,Track and Field,Chesapeake,Virginia,VA,Male,36.6778,-76.3023,249377
+ALEXIS,HOLMES,Track and Field,Hamden,Connecticut,,Female,,,
+BRYCE,HOPPEL,Track and Field,Midland,Texas,TX,Male,32.0243,-102.1147,140171
+MARISA,HOWARD,Track and Field,Pasco,Washington,WA,Female,46.2506,-119.1305,77274
+CHASE,JACKSON,Track and Field,Los Alamos,New Mexico,NM,Female,35.8927,-106.2862,13460
+MELISSA,JEFFERSON,Track and Field,Georgetown,South Carolina,SC,Female,33.3594,-79.2958,8465
+ALAYSHA,JOHNSON,Track and Field,Spring,Texas,TX,Female,30.0613,-95.383,63930
+JASMINE MARI,JONES,Track and Field,Greensburg,Pennsylvania,PA,Female,40.3113,-79.5445,14876
+WEINI,KELATI-FREZGHI,Track and Field,Flagstaff,Arizona,AZ,Female,35.1872,-111.6194,80167
+SAM,KENDRICKS,Track and Field,Oxford,Mississippi,MS,Male,34.3627,-89.5336,25713
+FRED,KERLEY,Track and Field,San Antonio,Texas,TX,Male,29.4632,-98.5238,2058444
+HOBBS,KESSLER,Track and Field,Ann Arbor,Michigan,MI,Male,42.2759,-83.731,308983
+WILLIAM,KINCAID,Track and Field,Littleton,Colorado,CO,Male,39.5915,-105.0188,45531
+KYREE,KING,Track and Field,Ontario,California,CA,Male,34.0393,-117.6064,176326
+BRYNN TAYLOR,KING,Track and Field,Houston,Texas,TX,Female,29.786,-95.3885,5970127
+ERRIYON,KNIGHTON,Track and Field,Tampa,Florida,FL,Male,27.9945,-82.4447,2861173
+LEONARD,KORIR,Track and Field,Colorado Springs,Colorado,CO,Male,38.8674,-104.7605,638194
+JOE,KOVACS,Track and Field,Dublin,Ohio,OH,Male,40.1112,-83.1454,48893
+JARRION,LAWSON,Track and Field,Texarkana,Texas,TX,Male,33.45,-94.0847,79570
+COURTNEY,LINDSEY,Track and Field,Rock Island,Illinois,IL,Male,41.4699,-90.5827,37264
+DAKOTAH,LINDWURM,Track and Field,St. Francis,Minnesota,MN,Female,45.3991,-93.3901,8198
+SHAMIER,LITTLE,Track and Field,Chicago,Illinois,IL,Female,41.8375,-87.6866,8497759
+MCKENZIE,LONG,Track and Field,Ironton,Ohio,OH,Female,38.5323,-82.6779,10597
+NOAH,LYLES,Track and Field,Alexandria,Virginia,VA,Male,38.8185,-77.0861,157594
+EMILY,MACKAY,Track and Field,Endicott,New York,NY,Female,42.098,-76.0639,13540
+MAGGIE,MALONE-HARDIN,Track and Field,Geneva,Nebraska,NE,Female,40.5308,-97.5974,2097
+SALIF,MANE,Track and Field,Bronx,New York,NY,Male,40.8501,-73.8662,1472654
+CONNER,MANTZ,Track and Field,Smithfield,Utah,UT,Male,41.8349,-111.8265,13658
+SAM,MATTIS,Track and Field,East Brunswick,New Jersey,,Male,,,
+SHELBY,MCEWEN,Track and Field,Abbeville,Mississippi,MS,Male,34.5034,-89.5025,395
+SYDNEY,MCLAUGHLIN-LEVRONE,Track and Field,Dunellen,New Jersey,NJ,Female,40.5903,-74.4656,7598
+BRANDON,MILLER,Track and Field,O’Fallon,Missouri,,Male,,,
+KATIE,MOON,Track and Field,Olmsted Twp,Ohio,,Female,,,
+JASMINE,MOORE,Track and Field,Grand Prairie,Texas,TX,Female,32.6871,-97.0208,197279
+WHITTNI,MORGAN,Track and Field,Panguitch,Utah,UT,Female,37.8236,-112.4342,1702
+MONAE',NICHOLS,Track and Field,Winter Haven,Florida,FL,Female,28.0118,-81.7014,293093
+CHRISTOPHER,NILSEN,Track and Field,Kansas City,Missouri,MO,Male,39.1238,-94.5541,1689556
+MICHAEL,NORMAN,Track and Field,Murrieta,California,CA,Male,33.5719,-117.1909,111899
+VERNON,NORWOOD,Track and Field,New Orleans,Louisiana,LA,Male,30.0687,-89.9288,932759
+YARED,NUGUSE,Track and Field,Louisville,Kentucky,KY,Male,38.1663,-85.6485,963812
+ABDIHAMID,NUR,Track and Field,Phoenix,Arizona,AZ,Male,33.5722,-112.0892,4064275
+FIONA,O'KEEFFE,Track and Field,Sacramento,California,CA,Female,38.5677,-121.4685,1957738
+KETURAH,ORJI,Track and Field,Mount Olive,New Jersey,,Female,,,
+PAYTON,OTTERDAHL,Track and Field,Rosemount,Minnesota,MN,Male,44.7466,-93.0661,25993
+DEANNA,PRICE,Track and Field,Moscow Mills,Missouri,MO,Female,38.94,-90.9254,3502
+ERIN,REESE,Track and Field,Mount Prospect,Illinois,IL,Female,42.0641,-87.9375,56191
+SHA'CARRI,RICHARDSON,Track and Field,Dallas,Texas,TX,Female,32.7935,-96.7667,5830932
+DANIEL,ROBERTS,Track and Field,Peachtree City,Georgia,GA,Male,33.3942,-84.571,38414
+RUSSELL,ROBINSON,Track and Field,Orlando,Florida,FL,Male,28.4773,-81.337,1882705
+KENNETH,ROOKS,Track and Field,Walla Walla,Washington,WA,Male,46.0671,-118.3368,33842
+JAIDA,ROSS,Track and Field,Medford,Oregon,OR,Female,42.3372,-122.854,168959
+MASAI,RUSSELL,Track and Field,Upper Marlboro,Maryland,MD,Female,38.8153,-76.7514,759
+RAVEN,SAUNDERS,Track and Field,Charleston,South Carolina,SC,Female,32.8168,-79.9687,706884
+KARISSA,SCHWEIZER,Track and Field,Urbandale,Iowa,IA,Female,41.639,-93.7812,45591
+DONALD,SCOTT,Track and Field,Apopka,Florida,FL,Male,28.7015,-81.5316,55056
+EMILY,SISSON,Track and Field,Providence,Rhode Island,RI,Female,41.823,-71.4187,1290271
+ELLE,ST. PIERRE,Track and Field,Berkshire,Vermont,,Female,,,
+GRACE ELIZABETH,STARK,Track and Field,White Lake,Michigan,,Female,,,
+TWANISHA,TERRY,Track and Field,Miami,Florida,FL,Female,25.784,-80.2101,6080145
+GABBY,THOMAS,Track and Field,Northampton,Massachusetts,MA,Female,42.3266,-72.6745,28245
+CURTIS,THOMPSON,Track and Field,Florence,New Jersey,,Male,,,
+VERNON,TURNER,Track and Field,Yukon,Oklahoma,OK,Male,35.5201,-97.7639,24198
+JAYDEN,ULRICH,Track and Field,East Alton,Illinois,IL,Female,38.884,-90.1074,5782
+PARKER ALYS,VALBY,Track and Field,Tampa,Florida,FL,Female,27.9945,-82.4447,2861173
+COURTNEY,WAYMENT,Track and Field,Layton,Utah,UT,Female,41.077,-111.962,81726
+JULIETTE,WHITTAKER,Track and Field,Laurel,Maryland,MD,Female,39.0949,-76.8622,29581
+ISABELLA MARIE,WHITTAKER,Track and Field,Laurel,Maryland,MD,Female,39.0949,-76.8622,29581
+MATTHEW,WILKINSON,Track and Field,Excelsior,Minnesota,MN,Male,44.9025,-93.5663,2257
+HARRISON,WILLIAMS,Track and Field,Memphis,Tennessee,TN,Male,35.1087,-89.9663,1037998
+BRIDGET,WILLIAMS,Track and Field,Greensburg,Pennsylvania,PA,Female,40.3113,-79.5445,14876
+ALLIE,WILSON,Track and Field,Wallingford,Pennsylvania,,Female,,,
+QUINCY ALEXANDER,WILSON,Track and Field,Bowie,Maryland,MD,Male,38.9549,-76.7406,57922
+RUDY,WINKLER,Track and Field,Sand Lake,New York,,Male,,,
+JACOB,WOOTEN,Track and Field,Tomball,Texas,TX,Male,30.0951,-95.6194,12630
+CLAYTON,YOUNG,Track and Field,Springville,Utah,UT,Male,40.1638,-111.6205,35195
+NICOLAS MACPHERSON,YOUNG,Track and Field,Camarillo,California,CA,Male,34.223,-119.0321,76748
+ZACHERY,ZIEMEK,Track and Field,Itasca,Illinois,IL,Male,41.9772,-88.0183,9627
+KIRSTEN,KASPER,Triathlon,North Andover,Massachusetts,,Female,,,
+MORGAN,PEARSON,Triathlon,New Vernon,New Jersey,NJ,Male,40.7343,-74.4877,869
+SETH,RIDER,Triathlon,Germantown,Tennessee,TN,Male,35.0829,-89.7824,41094
+TAYLOR,SPIVEY,Triathlon,Redondo Beach,California,CA,Female,33.8577,-118.3765,70620
+MATTHEW,ANDERSON,Volleyball,West Seneca,New York,,Male,,,
+TAYLOR,AVERILL,Volleyball,San Jose,California,CA,Male,37.3012,-121.848,1771413
+LAUREN,CARLINI,Volleyball,Aurora,Illinois,IL,Female,41.7638,-88.2902,181405
+MICAH,CHRISTENSON,Volleyball,Honolulu,Hawaii,HI,Male,21.3294,-157.846,348547
+TOREY,DEFALCO,Volleyball,Huntington Beach,California,CA,Male,33.696,-118.0018,197481
+ANDREA,DREWS,Volleyball,Elkhart,Indiana,IN,Female,41.6916,-85.9627,149423
+MICHA,HANCOCK,Volleyball,Edmond,Oklahoma,OK,Female,35.6689,-97.416,94503
+MAXWELL,HOLT,Volleyball,Cincinnati,Ohio,OH,Male,39.1413,-84.506,1692702
+THOMAS,JAESCHKE,Volleyball,Wheaton,Illinois,IL,Male,41.8561,-88.1085,53673
+JEFFREY,JENDRYK II,Volleyball,Wheaton,Illinois,IL,Male,41.8561,-88.1085,53673
+JORDAN,LARSON,Volleyball,Hooper,Nebraska,NE,Female,41.6116,-96.5487,980
+MICAH,MA'A,Volleyball,Kaneohe,Hawaii,HI,Male,21.4062,-157.7904,35493
+GARRETT,MUAGUTUTIA,Volleyball,Oceanside,California,CA,Male,33.2247,-117.3083,173722
+CHIAKA,OGBOGU,Volleyball,Coppell,Texas,TX,Female,32.9639,-96.9903,42513
+KATHRYN,PLUMMER,Volleyball,Aliso Viejo,California,CA,Female,33.5792,-117.7289,51896
+JORDYN,POULTER,Volleyball,Aurora,Colorado,CO,Female,39.7083,-104.7237,387349
+DANA,RETTKE,Volleyball,Riverside,Illinois,IL,Female,41.831,-87.8169,9225
+KELSEY,ROBINSON,Volleyball,Santa Cruz,California,CA,Female,36.9789,-122.0346,167835
+AARON,RUSSELL,Volleyball,Deland,Florida,FL,Male,29.0225,-81.2875,38392
+ERIK,SHOJI,Volleyball,Honolulu,Hawaii,HI,Male,21.3294,-157.846,348547
+AVERY,SKINNER,Volleyball,Katy,Texas,TX,Female,29.7905,-95.8353,22826
+DAVID,SMITH,Volleyball,Saugus,California,,Male,,,
+JORDAN,THOMPSON,Volleyball,Minneapolis,Minnesota,MN,Female,44.9635,-93.2678,2892569
+HALEIGH,WASHINGTON,Volleyball,Colorado Springs,Colorado,CO,Female,38.8674,-104.7605,638194
+JUSTINE,WONG-ORANTES,Volleyball,Cypress,California,CA,Female,33.8171,-118.0386,49955
+EMILY MARY,AUSMUS,Water Polo,Riverside,California,CA,Female,33.9381,-117.3949,2332836
+ALEX,BOWEN,Water Polo,Santee,California,CA,Male,32.8554,-116.9851,59497
+LUCA,CUPIDO,Water Polo,Santa Margherita Ligure,Italy,,Male,,,
+HANNES,DAUBE,Water Polo,Long Beach,California,CA,Male,33.7977,-118.167,462293
+CHASE WILLIAM,DODD,Water Polo,Long Beach,California,CA,Male,33.7977,-118.167,462293
+RYDER,DODD,Water Polo,Long Beach,California,CA,Male,33.7977,-118.167,462293
+RACHEL,FATTAL,Water Polo,Seal Beach,California,CA,Female,33.7542,-118.0714,25046
+JENNA MICHELLE,FLYNN,Water Polo,San Jose,California,CA,Female,37.3012,-121.848,1771413
+KALEIGH,GILCHRIST,Water Polo,Newport Beach,California,CA,Female,33.6151,-117.8668,85159
+BEN,HALLOCK,Water Polo,Westlake Village,California,CA,Male,34.1369,-118.822,7948
+DREW,HOLLAND,Water Polo,Orinda,California,CA,Male,37.8808,-122.179,19477
+JOHNNY,HOOPER,Water Polo,Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+MAX,IRVING,Water Polo,Long Beach,California,CA,Male,33.7977,-118.167,462293
+ASHLEIGH,JOHNSON,Water Polo,Miami,Florida,FL,Female,25.784,-80.2101,6080145
+AMANDA,LONGAN,Water Polo,Moorpark,California,CA,Female,34.2861,-118.8768,36073
+MADELINE,MUSSELMAN,Water Polo,Newport Beach,California,CA,Female,33.6151,-117.8668,85159
+RYANN,NEUSHUL,Water Polo,Goleta,California,CA,Female,34.4361,-119.8594,32640
+ALEX,OBERT,Water Polo,Loomis,California,CA,Male,38.8093,-121.1955,6831
+TARA,PRENTICE,Water Polo,Temecula,California,CA,Female,33.4928,-117.1315,110114
+JORDAN,RANEY,Water Polo,Manhattan Beach,California,CA,Female,33.8894,-118.3967,35123
+JEWEL,ROEMER,Water Polo,Martinez,California,CA,Female,37.9985,-122.1161,37093
+JOVANA,SEKULIC,Water Polo,Haverford,Pennsylvania,,Female,,,
+MAGGIE,STEFFENS,Water Polo,Danville,California,CA,Female,37.8121,-121.9698,43449
+MARKO,VAVIC,Water Polo,Rancho Palos Verdes,California,CA,Male,33.7554,-118.3634,41805
+ADRIAN,WEINBERG,Water Polo,Los Angeles,California,CA,Male,34.1141,-118.4068,11922389
+DYLAN,WOODHEAD,Water Polo,San Rafael,California,CA,Male,37.9905,-122.5221,60891
+JOURDAN,DELACRUZ,Weightlifting,Wylie,Texas,TX,Female,33.0362,-96.5161,57063
+WES,KITTS,Weightlifting,Knoxville,Tennessee,TN,Male,35.9692,-83.9496,615829
+HAMPTON,MORRIS,Weightlifting,Marietta,Georgia,GA,Male,33.9533,-84.5422,61387
+OLIVIA,REEVES,Weightlifting,Chattanooga,Tennessee,TN,Female,35.066,-85.2481,406849
+MARY,THEISEN LAPPEN,Weightlifting,Eau Claire,Wisconsin,WI,Female,44.8197,-91.4948,109491
+KAMAL ,BEY,Wrestling,Colorado Springs,Colorado,CO,Male,38.8674,-104.7605,638194
+KENNEDY ,BLADES,Wrestling,Chicago,Illinois,IL,Female,41.8375,-87.6866,8497759
+AARON ,BROOKS,Wrestling,Hagerstown,Maryland,MD,Male,39.6401,-77.7217,195261
+ADAM ,COON,Wrestling,Fowlerville,Michigan,MI,Male,42.6596,-84.0743,2951
+KYLE ,DAKE,Wrestling,Lansing,New York,,Male,,,
+AMIT,ELOR,Wrestling,Walnut Creek,California,CA,Female,37.9024,-122.0399,69809
+SARAH ,HILDEBRANDT,Wrestling,Granger,Indiana,IN,Female,41.7374,-86.1348,30019
+PAYTON ,JACOBSON,Wrestling,Elkhorn,Wisconsin,WI,Male,42.6713,-88.5377,10253
+SPENCER ,LEE,Wrestling,Iowa City,Iowa,IA,Male,41.6559,-91.5303,130736
+HELEN ,MAROULIS,Wrestling,Rockville,Maryland,MD,Female,39.0834,-77.1553,67142
+KAYLA ,MIRACLE,Wrestling,Tempe,Arizona,AZ,Female,33.3881,-111.9319,181005
+MASON ,PARRIS,Wrestling,Lawrenceburg,Indiana,IN,Male,39.0986,-84.8713,5140
+DOMINIQUE ,PARRISH,Wrestling,Scotts Valley,California,CA,Female,37.0555,-122.0118,12239
+JOSEF ,RAU,Wrestling,Chicago,Illinois,IL,Male,41.8375,-87.6866,8497759
+ZAIN ,RETHERFORD,Wrestling,Benton,Pennsylvania,PA,Male,41.1955,-76.3847,502
+KYLE ,SNYDER,Wrestling,Woodbine,Maryland,,Male,,,
