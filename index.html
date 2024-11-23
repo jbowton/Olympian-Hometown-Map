@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Map with States</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <style>
+        /* Centering the SVG with Flexbox */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* Optional: add background color */
+        }
+
+        svg {
+            display: block; /* Removes any extra margin or padding around the SVG */
+        }
+    </style>
+</head>
+<body>
+    <div class="tooltip" id="tooltip"></div>
+    <svg width="1500" height="1000"></svg>
+    <script>
+
+      const tooltip = d3.select("#tooltip");
+
+
+      // Define dimensions for the SVG
+      const width = 1500, height = 1000;
+
+      // Select the SVG element
+      const svg = d3.select("svg")
+          .attr("width", width)
+          .attr("height", height);
+
+      // Load the GeoJSON or TopoJSON data from a local file
+      d3.json("https://unpkg.com/us-atlas@3/counties-10m.json").then(us => {
+          // Create GeoJSON features using the topojson object
+          const counties = topojson.mesh(us, us.objects.counties, (a, b) => a !== b);
+          const states = topojson.mesh(us, us.objects.states, (a, b) => a !== b);
+          const nation = topojson.feature(us, us.objects.nation);
+
+          const projection = d3.geoAlbersUsa()
+              .translate([width / 2, height / 2])  // Center the map
+              .scale(1500);  // Adjust scale for zoom level
+
+          const path = d3.geoPath().projection(projection);
+
+          // Draw counties
+          svg.append("path")
+              .datum(counties)
+              .attr("fill", "none")
+              .attr("stroke", "#aaa")
+              .attr("stroke-width", 0.5)
+              .attr("d", path);
+
+          // Draw state borders
+          svg.append("path")
+              .datum(states)
+              .attr("fill", "none")
+              .attr("stroke", "#000")
+              .attr("stroke-width", 0.5)
+              .attr("d", path);
+
+          // Draw national border
+          svg.append("path")
+              .datum(nation)
+              .attr("fill", "none")
+              .attr("stroke", "#000")
+              .attr("stroke-width", 1)
+              .attr("d", path);
+
+          // Zoom functionality
+          const zoom = d3.zoom()
+                .scaleExtent([1, 8]) // Set min and max zoom scale
+                .on("zoom", zoomed);
+
+            svg.call(zoom); // Apply zoom behavior to the SVG
+
+            // Define zoomed function that updates the map position and scale
+            function zoomed(event) {
+                const { transform } = event;
+                svg.selectAll("path")
+                    .attr("transform", transform);
+
+                // Apply transformation to circles (data points)
+                svg.selectAll("circle")
+                    .attr("transform", transform)
+                    .attr("r", 3 / transform.k);  // Scale circle size based on zoom level
+            }
+
+          d3.csv("./combined_athletes_data.csv").then(data => {
+          // Add data points (circles) for athletes
+            const validData = data.filter(d => {
+              return d.latitude && d.longitude && !isNaN(d.latitude) && !isNaN(d.longitude);
+            });
+            svg.selectAll("circle")
+                .data(validData)
+                .enter()
+                .append("circle")
+                .attr("cx", d => projection([+d.longitude, +d.latitude])[0])  // x coordinate (longitude)
+                .attr("cy", d => projection([+d.longitude, +d.latitude])[1])  // y coordinate (latitude)
+                .attr("r", 3)  // Radius of the circle
+                .attr("fill", "red")  // Color of the circle
+                .on("mouseover", function(event, d) {
+                    // Update tooltip content and position
+                    tooltip.html(`<strong>${d["First Name"]} ${d["Last Name"]}</strong><br>Sport: ${d.Sport}`)
+                           .style("left", (event.pageX + 10) + "px")
+                           .style("top", (event.pageY + 10) + "px");
+
+                    // Show the tooltip with the 'visible' class
+                    tooltip.classed("visible", true);
+                })
+                .on("mousemove", function(event) {
+                    // Update tooltip position as the mouse moves
+                    tooltip.style("left", (event.pageX + 10) + "px")
+                           .style("top", (event.pageY + 10) + "px");
+                })
+                .on("mouseout", function() {
+                    // Hide the tooltip
+                    tooltip.classed("visible", false);
+                });
+            }).catch(error => {
+                console.error("Error loading CSV data:", error);
+            });
+      }).catch(error => {
+          console.error("Error loading or parsing data:", error);
+      });
+
+    </script>
+</body>
+</html>
