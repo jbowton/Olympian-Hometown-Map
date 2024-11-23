@@ -23,7 +23,6 @@ cities_df = pd.read_csv("uscities.csv")
 cities_set = set(cities_df['city'].str.lower().tolist())
 
 athletes = []
-seen_athletes = set() #remove??
 
 # Function to extract athletes data from the page source
 def extract_athletes(page_source):
@@ -34,10 +33,7 @@ def extract_athletes(page_source):
       for index, card in enumerate(soup.find_all("tr", class_="css-0")):
         if index == 0:
             continue  # Skip the first card
-        #print(card)
         name = card.find("p", class_="chakra-text css-mpfnrl").text.strip()
-        if name in seen_athletes:
-            continue  # Skip if the athlete is already added
         p_tags = card.find_all("p", class_="chakra-text css-1c57jb4")
         hometown = p_tags[len(p_tags) - 1].text.strip()
         sport_tag = card.find("span", class_="css-1c26655")
@@ -62,7 +58,6 @@ def extract_athletes(page_source):
             "faceshot_url": img_url,
             "bio_url": bio_url
         })
-        seen_athletes.add(name) #remove??
     except Exception as e:
         print(f"Error: {e}")
 
