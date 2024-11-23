@@ -1,3 +1,8 @@
+'''
+This file accesses the Team USA webpage and scrapes data about every athlete.
+Data collected includes name, sport, hometown, medal count, and images.
+'''
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
@@ -10,15 +15,15 @@ from bs4 import BeautifulSoup
 driver = webdriver.Chrome()  # Ensure you have ChromeDriver installed
 driver.get("https://www.teamusa.com/athletes")
 
-# Wait for initial load
+# Wait for initial page to load
 time.sleep(3)
 
-# List of cities from the dataset
+# List of all cities in the US
 cities_df = pd.read_csv("uscities.csv")
 cities_set = set(cities_df['city'].str.lower().tolist())
 
 athletes = []
-seen_athletes = set()
+seen_athletes = set() #remove??
 
 # Function to extract athletes data from the page source
 def extract_athletes(page_source):
@@ -57,7 +62,7 @@ def extract_athletes(page_source):
             "faceshot_url": img_url,
             "bio_url": bio_url
         })
-        seen_athletes.add(name)  # Add to seen set
+        seen_athletes.add(name) #remove??
     except Exception as e:
         print(f"Error: {e}")
 
@@ -77,6 +82,8 @@ while True:
         )
         load_more_button.click()
         time.sleep(3)  # Wait for new data to load
+
+        # Keep track of scroll height to know when to stop
         current_scroll_height = driver.execute_script("return document.body.scrollHeight;")
         if current_scroll_height == previous_scroll_height:
           print("End of page detected.")
@@ -101,18 +108,18 @@ athletes_df['State'] = ''
 # Only process hometowns if present
 for index, athlete in athletes_df.iterrows():
     if athlete['Hometown']:
-        hometown_parts = athlete['Hometown'].split(',')
+        hometown_parts = athlete['Hometown'].split(',') # Split city and state ID
         if len(hometown_parts) == 2:
           city, state = hometown_parts
         elif len (hometown_parts) == 3: #edge case for Washington D.C
           city, state = (hometown_parts[0], hometown_parts[1]) if hometown_parts else ('', '')
-        else:
+        else: # If only city or only state
            city, state = (hometown_parts[0], '') if hometown_parts else ('', '')
         #city, state = athlete['Hometown'].split(',') if ',' in athlete['Hometown'] else ('', '')
         athletes_df.at[index, 'City'] = city.strip()
         athletes_df.at[index, 'State'] = state.strip()
 
-# Clean the "Hometown" column
+# CMake sure data is there for hometown
 for athlete in athletes:
     hometown = athlete.get("Hometown", "").lower()[:-4]
     if hometown not in cities_set:
