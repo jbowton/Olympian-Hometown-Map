@@ -5,12 +5,26 @@
   color: white;
   border-radius: 4px;
   pointer-events: none;
-  visibility: hidden;  /* Hidden by default */
   opacity: 0;
   transition: opacity 0.3s; /* Fade effect */
+  z-index: 1000
 }
 
 .tooltip.visible {
-  visibility: hidden;
   opacity: 1;
+}
+
+#controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
 }

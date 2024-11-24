@@ -6,24 +6,33 @@
     <title>US Map with States</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+    <link rel="stylesheet" href="index.css">
     <style>
-        /* Centering the SVG with Flexbox */
         body, html {
             height: 100%;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f0f0f0; /* Optional: add background color */
+            background-color: #f0f0f0;
         }
 
         svg {
-            display: block; /* Removes any extra margin or padding around the SVG */
+            display: block;
         }
     </style>
 </head>
 <body>
     <div class="tooltip" id="tooltip"></div>
+    <div id="controls">
+        <select id="yearSelect">
+            <option value="all">All Years</option>
+            <!-- Years will be populated dynamically -->
+        </select>
+        <select id="sportSelect">
+            <option value="all">All Sports</option>
+        </select>
+    </div>
     <svg width="1500" height="1000"></svg>
     <script>
 
@@ -77,10 +86,10 @@
 
           // Zoom functionality
           const zoom = d3.zoom()
-                .scaleExtent([1, 8]) // Set min and max zoom scale
+                .scaleExtent([1, 8])
                 .on("zoom", zoomed);
 
-            svg.call(zoom); // Apply zoom behavior to the SVG
+            svg.call(zoom);
 
             // Define zoomed function that updates the map position and scale
             function zoomed(event) {
@@ -94,49 +103,92 @@
                     .attr("r", 3 / transform.k);  // Scale circle size based on zoom level
             }
 
-          d3.csv("./combined_athletes_data.csv").then(data => {
-          // Add data points (circles) for athletes
-            const validData = data.filter(d => {
-              return d.latitude && d.longitude && !isNaN(d.latitude) && !isNaN(d.longitude);
-            });
-            svg.selectAll("circle")
-                .data(validData)
-                .enter()
-                .append("circle")
-                .attr("cx", d => projection([+d.longitude, +d.latitude])[0])  // x coordinate (longitude)
-                .attr("cy", d => projection([+d.longitude, +d.latitude])[1])  // y coordinate (latitude)
-                .attr("r", 3)  // Radius of the circle
-                .attr("fill", "red")  // Color of the circle
-                .on("mouseover", function(event, d) {
-                    // Update tooltip content and position
-                    tooltip.html(`<strong>${d["First Name"]} ${d["Last Name"]}</strong><br>Sport: ${d.Sport}`)
-                           .style("left", (event.pageX + 10) + "px")
-                           .style("top", (event.pageY + 10) + "px");
-
-                    // Show the tooltip with the 'visible' class
-                    tooltip.classed("visible", true);
-                })
-                .on("mousemove", function(event) {
-                    // Update tooltip position as the mouse moves
-                    tooltip.style("left", (event.pageX + 10) + "px")
-                           .style("top", (event.pageY + 10) + "px");
-                })
-                .on("mouseout", function() {
-                    // Hide the tooltip
-                    tooltip.classed("visible", false);
-                });
-
+            d3.csv("./combined_athletes_data.csv").then(data => {
+                // Get unique years from data
                 const years = [...new Set(data.map(d => d.Year))].sort();
-                d3.select("#yearSelect")
-                    .selectAll("option")
+                const sports = [...new Set(data.map(d => d.Sport))].sort();
+
+                const yearSelect = d3.select("#yearSelect");
+                yearSelect.selectAll("option").remove();
+                yearSelect.append("option")
+                        .text("All Years")
+                        .attr("value", "all");
+
+                // Populate dropdown
+                yearSelect.selectAll("option.year")
                     .data(years)
                     .enter()
                     .append("option")
+                    .attr("class", "year")
                     .text(d => d)
                     .attr("value", d => d);
 
-            }).catch(error => {
-                console.error("Error loading CSV data:", error);
+                // Populate sports dropdown
+                const sportSelect = d3.select("#sportSelect");
+                sportSelect.selectAll("option").remove();
+                sportSelect.append("option")
+                        .text("All Sports")
+                        .attr("value", "all");
+
+                sportSelect.selectAll("option.sport")
+                    .data(sports)
+                    .enter()
+                    .append("option")
+                    .attr("class", "sport")
+                    .text(d => d)
+                    .attr("value", d => d);
+
+                // Function to update circles
+                function updateMap(selectedYear, selectedSport) {
+                    const validData = data.filter(d => {
+                        const hasCoords = d.latitude && d.longitude && !isNaN(d.latitude) && !isNaN(d.longitude);
+                        const yearMatch = selectedYear === "all" ? true : d.Year === selectedYear;
+                        const sportMatch = selectedSport === "all" ? true : d.Sport === selectedSport;
+                        return hasCoords && yearMatch && sportMatch;
+                    });
+
+                    // Update circles
+                    const circles = svg.selectAll("circle")
+                        .data(validData);
+
+                    // Remove old circles
+                    circles.exit().remove();
+
+                    // Add new circles
+                    circles.enter()
+                        .append("circle")
+                        .merge(circles)
+                        .attr("cx", d => projection([+d.longitude, +d.latitude])[0])
+                        .attr("cy", d => projection([+d.longitude, +d.latitude])[1])
+                        .attr("r", 3)
+                        .attr("fill", "red")
+                        .on("mouseover", function(event, d) {
+                            d3.select("#tooltip")
+                                .html(`<strong>${d["First Name"]} ${d["Last Name"]}</strong><br>Sport: ${d.Sport}<br>City: ${d.Hometown}, ${d.state_id}`)
+                                .style("left", (event.pageX + 10) + "px")
+                                .style("top", (event.pageY + 10) + "px")
+                                .classed("visible", true);
+                        })
+                        .on("mousemove", function(event) {
+                            d3.select("#tooltip")
+                                .style("left", (event.pageX + 10) + "px")
+                                .style("top", (event.pageY + 10) + "px");
+                        })
+                        .on("mouseout", function() {
+                            d3.select("#tooltip").classed("visible", false);
+                        });
+                }
+
+                // Event listener on dropdown
+                yearSelect.on("change", function() {
+                    updateMap(this.value, sportSelect.property("value"));
+                });
+                sportSelect.on("change", function() {
+                    updateMap(yearSelect.property("value"), this.value);
+                });
+
+                // Initial map render
+                updateMap("all", "all");
             });
       }).catch(error => {
           console.error("Error loading or parsing data:", error);
