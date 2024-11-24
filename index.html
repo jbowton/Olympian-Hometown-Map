@@ -125,6 +125,16 @@
                     // Hide the tooltip
                     tooltip.classed("visible", false);
                 });
+
+                const years = [...new Set(data.map(d => d.Year))].sort();
+                d3.select("#yearSelect")
+                    .selectAll("option")
+                    .data(years)
+                    .enter()
+                    .append("option")
+                    .text(d => d)
+                    .attr("value", d => d);
+
             }).catch(error => {
                 console.error("Error loading CSV data:", error);
             });
