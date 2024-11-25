@@ -7,20 +7,6 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
     <link rel="stylesheet" href="index.css">
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f0f0;
-        }
-
-        svg {
-            display: block;
-        }
-    </style>
 </head>
 <body>
     <div class="tooltip" id="tooltip"></div>
@@ -158,8 +144,44 @@
                     circles.enter()
                         .append("circle")
                         .merge(circles)
-                        .attr("cx", d => projection([+d.longitude, +d.latitude])[0])
-                        .attr("cy", d => projection([+d.longitude, +d.latitude])[1])
+                        .attr("cx", d => {
+                            // Group data points by location
+                            const sameLocation = validData.filter(point =>
+                                point.latitude === d.latitude &&
+                                point.longitude === d.longitude
+                            );
+                            const index = sameLocation.indexOf(d);
+                            const total = sameLocation.length;
+
+                            // If multiple points exist, create a circle pattern
+                            if (total > 1) {
+                                const angle = (2 * Math.PI * index) / total;
+                                const radius = 1.5; // Radius of the circle pattern
+                                const baseX = projection([+d.longitude, +d.latitude])[0];
+                                return baseX + (radius * Math.cos(angle));
+                            }
+
+                            return projection([+d.longitude, +d.latitude])[0];
+                        })
+                        .attr("cy", d => {
+                            // Group data points by location
+                            const sameLocation = validData.filter(point =>
+                                point.latitude === d.latitude &&
+                                point.longitude === d.longitude
+                            );
+                            const index = sameLocation.indexOf(d);
+                            const total = sameLocation.length;
+
+                            // If multiple points exist, create a circle pattern
+                            if (total > 1) {
+                                const angle = (2 * Math.PI * index) / total;
+                                const radius = 1.5; // Radius of the circle pattern
+                                const baseY = projection([+d.longitude, +d.latitude])[1];
+                                return baseY + (radius * Math.sin(angle));
+                            }
+
+                            return projection([+d.longitude, +d.latitude])[1];
+                        })
                         .attr("r", 3)
                         .attr("fill", "red")
                         .on("mouseover", function(event, d) {
