@@ -77,16 +77,18 @@
 
             svg.call(zoom);
 
+            let currentZoom = d3.zoomIdentity;
+
             // Define zoomed function that updates the map position and scale
             function zoomed(event) {
-                const { transform } = event;
+                currentZoom = event.transform
                 svg.selectAll("path")
-                    .attr("transform", transform);
+                    .attr("transform", currentZoom);
 
                 // Apply transformation to circles (data points)
                 svg.selectAll("circle")
-                    .attr("transform", transform)
-                    .attr("r", 3 / transform.k);  // Scale circle size based on zoom level
+                    .attr("transform", currentZoom)
+                    .attr("r", 3 / currentZoom.k);  // Scale circle size based on zoom level
             }
 
             d3.csv("./combined_athletes_data.csv").then(data => {
@@ -182,8 +184,9 @@
 
                             return projection([+d.longitude, +d.latitude])[1];
                         })
-                        .attr("r", 3)
+                        .attr("r", 3/currentZoom.k)
                         .attr("fill", "red")
+                        .attr("transform", currentZoom)
                         .on("mouseover", function(event, d) {
                             d3.select("#tooltip")
                                 .html(`<strong>${d["First Name"]} ${d["Last Name"]}</strong><br>Sport: ${d.Sport}<br>City: ${d.Hometown}, ${d.state_id}`)
