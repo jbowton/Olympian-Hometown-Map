@@ -86,9 +86,9 @@ while True:
           print(previous_scroll_height)
           break
     except:
-        #driver.execute_script("window.scrollBy(0, 500);")
+        driver.execute_script("window.scrollBy(0, 800);")
         #time.sleep(1)  # Allow page elements to adjust
-        break
+        #break
 
 
 extract_athletes(driver.page_source)
@@ -124,6 +124,6 @@ for athlete in athletes:
 merged_df = athletes_df.merge(cities_df, how='left', left_on=['City', 'State'], right_on=['city', 'state_id'])
 
 # Save to CSV
-merged_df.to_csv("olympian_dataFreestyleSkiing.csv", index=False)
+merged_df.to_csv("olympian_datatesting.csv", index=False)
 
 driver.quit()
